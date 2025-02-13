@@ -42,6 +42,13 @@ plot2 <- ggplot(data=diamonds) +
   geom_point(aes(x=price, y=color)) +
   theme_light()
 
+### Both partners - delete this comment, then write some code here
+### to plot, summarize, calculate something simple using the diamonds
+### dataset.
+break_this_stupid_document <- 5
+lmao <- 2
+excuse_me <- break_this_stupid_document + lmao
+
 ```
 
 ## STEP 11: And even more merge conflicts!
