@@ -54,10 +54,11 @@ excuse_me <- break_this_stupid_document + lmao
 ## STEP 11: And even more merge conflicts!
 
 ```{r break-it-2}
-### Both partners - delete this comment, then write some code here
-### to plot, summarize, calculate something simple using the diamonds
-### dataset.
+### Breaky breaky breaky 
 
+plot3 <- ggplot(data=diamonds) +
+  geom_point(aes(x=price, y=depth)) +
+  theme_light()
 
 ```
 
