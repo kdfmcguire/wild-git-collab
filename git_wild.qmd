@@ -56,7 +56,7 @@ excuse_me <- break_this_stupid_document + lmao
 ```{r break-it-2}
 diamonds_break <- diamonds |>
   mutate(price_per_carat = price * carat)
-
+ 
 
 ```
 
