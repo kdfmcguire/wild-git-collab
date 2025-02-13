@@ -54,9 +54,15 @@ excuse_me <- break_this_stupid_document + lmao
 ## STEP 11: And even more merge conflicts!
 
 ```{r break-it-2}
+
 diamonds_break <- diamonds |>
   mutate(price_per_carat = price * carat)
 
+### Breaky breaky breaky 
+
+plot3 <- ggplot(data=diamonds) +
+  geom_point(aes(x=price, y=depth)) +
+  theme_light()
 
 ```
 
