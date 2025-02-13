@@ -36,10 +36,11 @@ diamonds_carat <- diamonds |>
 ## STEP 7: Uh oh, merge conflicts!
 
 ```{r break-it-1}
-### Both partners - delete this comment, then write some code here
-### to plot, summarize, calculate something simple using the diamonds
-### dataset.
+#here's a comment
 
+plot2 <- ggplot(data=diamonds) +
+  geom_point(aes(x=price, y=color)) +
+  theme_light()
 
 ```
 
