@@ -19,9 +19,7 @@ library(tidyverse)
 ### ggplot2 package) and create a plot of price vs. carat (or some other
 ### variables of your choice) 
 
-ggplot(data=diamonds) +
-  geom_point(aes(x=price, y=carat)) +
-  theme_light()
+
 ```
 
 ```{r partner 2}
@@ -29,8 +27,9 @@ ggplot(data=diamonds) +
 ### ggplot2 package) and create a subset based on filtering, e.g., 
 ### size greater than 1 carat or cut is "Ideal"
 
-
-
+library(ggplot2)
+diamonds_one_carat <- diamonds |>
+  filter(carat > 1)
 ```
 
 ## STEP 7: Uh oh, merge conflicts!
