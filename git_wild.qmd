@@ -54,9 +54,8 @@ excuse_me <- break_this_stupid_document + lmao
 ## STEP 11: And even more merge conflicts!
 
 ```{r break-it-2}
-### Both partners - delete this comment, then write some code here
-### to plot, summarize, calculate something simple using the diamonds
-### dataset.
+diamonds_break <- diamonds |>
+  mutate(price_per_carat = price * carat)
 
 
 ```
